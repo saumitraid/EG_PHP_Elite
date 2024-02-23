@@ -11,6 +11,56 @@
 <title>BTS-4</title>
 </head>
 <body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <a href="#" class="navbar-brand">NavBar Brand</a>
+        <button class="navbar-toggler" data-target="#myMenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"  data-toggle="dropdown">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="carousel slide carousel-fade" data-ride="carousel" id="mySlide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider_1.jpg" class="w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_2.jpg" class="w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_3.jpg" class="w-100">
+            </div>
+        </div>
+        <a class="carousel-control-prev" type="button" data-target="#mySlide" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" type="button" data-target="#mySlide" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="card col mr-3">
